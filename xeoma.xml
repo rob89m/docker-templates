@@ -48,8 +48,5 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-<WebUI>http://[IP]:[PORT:32400]/web</WebUI>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png</Icon>
-  <ExtraParams></ExtraParams>
 <BaseImage>lsiobase/ubuntu:xenial</BaseImage>
 </Container>
