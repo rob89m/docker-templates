@@ -11,11 +11,10 @@
   <Description>
   Xemoa CCTV System. [br]
 
-  [b]/config[/b] Where docker configs should be stored[br]
   [b]/archive[/b] Where CCTV recordings should be stored[br]
   </Description>
   <Project>https://felenasoft.com/xeoma/en/</Project>
-  <Registry>https://hub.docker.com/r/coppit/xeoma</Registry>
+  <Registry>https://hub.docker.com/r/rob89m/xeoma</Registry>
   <Repository>coppit/xeoma</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
@@ -40,11 +39,6 @@
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/archive</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-	<Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
