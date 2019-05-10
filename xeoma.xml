@@ -42,5 +42,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+<Icon>https://raw.githubusercontent.com/rob89m/docker-xeoma/master/xeoma.png</Icon>
 <BaseImage>lsiobase/ubuntu:xenial</BaseImage>
 </Container>
