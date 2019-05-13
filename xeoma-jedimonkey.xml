@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/rob89m/docker-templates/master/xeoma.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>CCTV</Category>
+  <Date>2019-05-17</Date>
+  <Changes>
+  </Changes>
+  <Name>xeoma</Name>
+  <Support>https://felenasoft.com/xeoma/en/</Support>
+  <Description>
+  Xemoa CCTV System. [br]
+
+  [b]/archive[/b] Where CCTV recordings should be stored[br]
+  </Description>
+  <Project>https://felenasoft.com/xeoma/en/</Project>
+  <Registry>https://hub.docker.com/r/jedimonkey/xeoma</Registry>
+  <Repository>jedimonkey/xeoma</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>VERSION</Name>
+      <Value>latest</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/archive</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<Icon>https://raw.githubusercontent.com/rob89m/docker-xeoma/master/xeoma.png</Icon>
+<BaseImage>lsiobase/ubuntu:xenial</BaseImage>
+</Container>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
