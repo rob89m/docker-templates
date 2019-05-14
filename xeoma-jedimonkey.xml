@@ -14,7 +14,7 @@
   [b]/archive[/b] Where CCTV recordings should be stored[br]
   </Description>
   <Project>https://felenasoft.com/xeoma/en/</Project>
-  <Registry>https://hub.docker.com/r/rob89m/xeoma-docker/Registry>
+  <Registry>https://hub.docker.com/r/rob89m/xeoma-docker</Registry>
   <Repository>rob89m/xeoma-docker</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
