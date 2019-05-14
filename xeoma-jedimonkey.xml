@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+e<?xml version="1.0" encoding="utf-8"?>
 <Container>
   <TemplateURL>https://raw.githubusercontent.com/rob89m/docker-templates/master/xeoma-jedimonkey.xml</TemplateURL>
   <Beta>False</Beta>
@@ -10,7 +10,7 @@
   <Support>https://felenasoft.com/xeoma/en/</Support>
   <Description>
   Xemoa CCTV System. [br]
-
+  [b]/usr/local/Xeoma[/b] Directory containing Server Config
   [b]/archive[/b] Where CCTV recordings should be stored[br]
   </Description>
   <Project>https://felenasoft.com/xeoma/en/</Project>
