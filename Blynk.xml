@@ -1,0 +1,57 @@
+e<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/rob89m/docker-templates/master/Blynk.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Date>2019-07-28</Date>
+  <Changes>
+  </Changes>
+  <Name>Blynk</Name>
+  <Support>https://blynk.cc/</Support>
+  <Description>
+  Blynk Self Hosted Server[br]
+  [b]/config[/b]
+  [b]/data[/b]
+  </Description>
+  <Project>https://blynk.cc/</Project>
+  <Registry>https://hub.docker.com/r/rob89m/blynk-server</Registry>
+  <Repository>rob89m/blynk-server</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>VERSION</Name>
+      <Value>latest</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/blynk</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<Icon>https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png</Icon>
+<BaseImage>lsiobase/ubuntu:xenial</BaseImage>
+</Container>
