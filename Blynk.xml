@@ -1,4 +1,4 @@
-e<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Container>
   <TemplateURL>https://raw.githubusercontent.com/rob89m/docker-templates/master/Blynk.xml</TemplateURL>
   <Beta>False</Beta>
