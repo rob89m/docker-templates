@@ -35,6 +35,27 @@
   </Environment>
   <Networking>
     <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+    <Publish>
+      <Port>
+        <HostPort>8441</HostPort>
+        <ContainerPort>8441</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+    <Publish>
+      <Port>
+        <HostPort>9443</HostPort>
+        <ContainerPort>9443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data>
     <Volume>
